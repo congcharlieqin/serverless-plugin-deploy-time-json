@@ -1,0 +1,22 @@
+{
+  "name": "serverless-plugin-deploy-time-json",
+  "version": "1.0.0",
+  "description": "A simple plugin that writes the current time using Luxon to a json file to be packaged into the serverless deployment and then removed from local file system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/congcharlieqin/serverless-plugin-deploy-time-json.git"
+  },
+  "author": "",
+  "license": "BSD-3-Clause-Clear",
+  "bugs": {
+    "url": "https://github.com/congcharlieqin/serverless-plugin-deploy-time-json/issues"
+  },
+  "homepage": "https://github.com/congcharlieqin/serverless-plugin-deploy-time-json#readme",
+  "dependencies": {
+    "luxon": "^1.24.1"
+  }
+}
